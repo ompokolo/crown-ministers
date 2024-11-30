@@ -1,0 +1,157 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery | The Crown Ministers Kisii</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="images/CR.jpg" alt="Logo" class="logo">
+        <nav>
+            <ul class="menu">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="album.html">Album</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="gallery.html" class="active">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Individual Photos</h2>
+            <div class="photo-grid">
+                <div class="photo-card" onclick="showPopup('individualPhoto1')">
+                    <h3>Photo 1</h3>
+                    <p>Click to view</p>
+                </div>
+                <div class="photo-card" onclick="showPopup('individualPhoto2')">
+                    <h3>Photo 2</h3>
+                    <p>Click to view</p>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Popups for Individual Photos -->
+        <div id="individualPhoto1" class="popup">
+            <div class="popup-content">
+                <h3>Individual Photo 1</h3>
+                <img src="images/DV.jpg" alt="Individual Photo 1">
+                <button class="close-popup" onclick="closePopup('individualPhoto1')">Close</button>
+            </div>
+        </div>
+        <div id="individualPhoto2" class="popup">
+            <div class="popup-content">
+                <h3>Individual Photo 2</h3>
+                <img src="images/RO.jpg" alt="Individual Photo 2">
+                <button class="close-popup" onclick="closePopup('individualPhoto2')">Close</button>
+            </div>
+        </div>
+        
+     
+        <section>
+            <h2>Group Photos</h2>
+            <div class="photo-grid">
+                <div class="photo-card" onclick="showPopup('groupPhoto1')">
+                    <h3>Group Photo 1</h3>
+                    <p>Click to view</p>
+                </div>
+                <div class="photo-card" onclick="showPopup('groupPhoto2')">
+                    <h3>Group Photo 2</h3>
+                    <p>Click to view</p>
+                </div>
+            </div>
+        </section>
+        
+      
+        <div id="groupPhoto1" class="popup">
+            <div class="popup-content">
+                <h3>Group Photo 1</h3>
+                <img src="images/RC.jpg" alt="Group Photo 1">
+                <button class="close-popup" onclick="closePopup('groupPhoto1')">Close</button>
+            </div>
+        </div>
+        <div id="groupPhoto2" class="popup">
+            <div class="popup-content">
+                <h3>Group Photo 2</h3>
+                <img src="images/AKA.jpg" alt="Group Photo 2">
+                <button class="close-popup" onclick="closePopup('groupPhoto2')">Close</button>
+            </div>
+        </div>
+        
+       
+        <section>
+            <h2>Performing Photos</h2>
+            <div class="photo-grid">
+                <div class="photo-card" onclick="showPopup('performingPhoto1')">
+                    <h3>Performing Photo 1</h3>
+                    <p>Click to view</p>
+                </div>
+                <div class="photo-card" onclick="showPopup('performingPhoto2')">
+                    <h3>Performing Photo 2</h3>
+                    <p>Click to view</p>
+                </div>
+            </div>
+        </section>
+        
+     
+        <div id="performingPhoto1" class="popup">
+            <div class="popup-content">
+                <h3>Performing Photo 1</h3>
+                <img src="images/NAT.jpg" alt="Performing Photo 1">
+                <button class="close-popup" onclick="closePopup('performingPhoto1')">Close</button>
+            </div>
+        </div>
+        <div id="performingPhoto2" class="popup">
+            <div class="popup-content">
+                <h3>Performing Photo 2</h3>
+                <img src="images/E7.jpg" alt="Performing Photo 2">
+                <button class="close-popup" onclick="closePopup('performingPhoto2')">Close</button>
+            </div>
+        </div>
+        
+       
+        <section>
+            <h2>Behind the Scene Photos</h2>
+            <div class="photo-grid">
+                <div class="photo-card" onclick="showPopup('behindScenePhoto1')">
+                    <h3>Behind Scene Photo 1</h3>
+                    <p>Click to view</p>
+                </div>
+                <div class="photo-card" onclick="showPopup('behindScenePhoto2')">
+                    <h3>Behind Scene Photo 2</h3>
+                    <p>Click to view</p>
+                </div>
+            </div>
+        </section>
+        
+      
+        <div id="behindScenePhoto1" class="popup">
+            <div class="popup-content">
+                <h3>Behind Scene Photo 1</h3>
+                <img src="images/BASS.jpg" alt="Behind Scene Photo 1">
+                <button class="close-popup" onclick="closePopup('behindScenePhoto1')">Close</button>
+            </div>
+        </div>
+        <div id="behindScenePhoto2" class="popup">
+            <div class="popup-content">
+                <h3>Behind Scene Photo 2</h3>
+                <img src="images/SOP.jpg" alt="Behind Scene Photo 2">
+                <button class="close-popup" onclick="closePopup('behindScenePhoto2')">Close</button>
+            </div>
+        </div>
+        
+    </main>
+
+    <footer>
+        <p>Contact: +254 18324233 | Email: crownministers2@gmail.com</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

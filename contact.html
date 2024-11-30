@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | The Crown Ministers Kisii</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="images/CR.jpg" alt="Logo" class="logo">
+        <nav>
+            <ul class="menu">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="album.html">Album</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contact-info">
+            <h2>Contact Information</h2>
+            <p>For inquiries, please reach out to us at:</p>
+            <p>Phone: +254 18324233 | Email: crownministers2@gmail.com</p>
+        </section>
+
+        <section class="registration-form">
+            <h2>Registration</h2>
+            <form>
+                <label for="first-name">First Name:</label><input type="text" id="first-name" required><br>
+                <label for="middle-name">Middle Name:</label><input type="text" id="middle-name"><br>
+                <label for="last-name">Last Name:</label><input type="text" id="last-name" required><br>
+                <label for="phone">Phone Number:</label><input type="tel" id="phone" required><br>
+                <label>Join as:</label>
+                <input type="radio" name="member" value="Full-time" required> Full-time
+                <input type="radio" name="member" value="Affiliate" required> Affiliate<br>
+                <label>Gender:</label>
+                <input type="radio" name="gender" value="Male" required> Male
+                <input type="radio" name="gender" value="Female" required> Female<br>
+                <label for="voice">Voice Type:</label>
+                <select id="voice" required>
+                    <option value="Bass">Bass</option>
+                    <option value="Soprano">Soprano</option>
+                    <option value="Tenor">Tenor</option>
+                    <option value="Alto">Alto</option>
+                </select><br>
+                <label>Baptism:</label>
+                <input type="radio" name="baptism" value="Yes"> Yes
+                <input type="radio" name="baptism" value="No" checked> No<br>
+                <label for="church">If Yes, Church Name:</label><input type="text" id="church"><br>
+                <label for="elder-phone">Church Elder's Phone Number:</label><input type="tel" id="elder-phone"><br>
+                <button type="submit">Register</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Contact: +254 700 000 000 | Email: info@crownministers.com</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
